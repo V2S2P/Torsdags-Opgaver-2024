@@ -1,0 +1,5 @@
+I if-statemented siger vi at hvis framecount % numberOfCirlces er lig 0, så vil der stopped med at komme flere circler. Hvis modulus er mere end 0, så vil der komme flere circler. 
+
+frameCount starter på 1 i draw() og vil stige med 1 for hver loop i draw. Til at starte med vil modulus være 1, så den vil gå ind i if-statemented og se at modulus er 1, den vil så gå ned og add 1 til vores counter (den vil add 1 cirkel/ellipse).
+
+Da der kan være 40 circler på en row, betyder det så at når den har added 40 circler vil modulus nu være 0 da modulus af 40/40 er lig 0. Den vil så gå ned i vores andet if-statement og se at counter nu er lig 0 og vil derfor add 1 til vores row. Det vil den gøre uendelidt nærmest.

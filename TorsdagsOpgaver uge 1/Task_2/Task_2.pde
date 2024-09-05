@@ -1,0 +1,20 @@
+String teacherName = "Tess Løvgreen";// Skriv den rette datatype og et passende variabelnavn foran denne værdi: String teacherName= "Tess Løvgreen"
+println(teacherName);
+int daysInYear = 365;
+println(daysInYear);
+String cityName = "København";
+println(cityName);
+boolean iAmHuman = true;
+println(iAmHuman);
+int calculations = 60*24;
+println(calculations);
+float numWithDecimal = 22.12;
+println(numWithDecimal);
+String intro = "Hej, jeg heddder " + teacherName;
+println(intro);
+boolean iAmAlien = false;
+println(iAmAlien);
+float decimalNum = 2.2 + 33;
+println(decimalNum);
+char letter = 'S';
+println(letter);
